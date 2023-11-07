@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/content_main" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:text="read"           
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/read_nfc_button"
+			android:background="#000000"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:text="info_nfc_button"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:id="@+id/info_nfc_button" />
+
+        <Button
+            android:text="emulator card"
+            android:layout_width="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_height="102.0dp"
+            android:id="@+id/em_nfc_button"
+            android:background="#000000"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
